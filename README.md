@@ -70,21 +70,21 @@ color, sort order, etc.
 if you're interested in learning more about .DS_Store, start with the README
 of the parser script file.gallery uses,
 [.DS_Store-parser](https://github.com/hanwenzhu/.DS_Store-parser#readme), by
-@hanwenzhu.
+[hanwenzhu](https://github.com/hanwenzhu/).
 
 ### how do you update .DS_Store?
 
-only certain actions seem to reliably get macOS to update the .DS_Store contents.
+certain actions reliably update the contents of .DS_Store:
 
 - it updates on file creation/deletion. so you could delete `index.html` (which is
 generated anyways) in the directory you made changes. this is particularly nice
 when combined with a file watcher (like fswatch). I use this for kevin.garden!
 I run this script [`watch.sh`](https://github.com/inchkev/garden/blob/main/watch.sh),
-which automatically calls cultivate.js when it sees that a file was changed.
+which automatically calls cultivate.js when it sees that a file has changed/been added or removed.
 - it also updates when you change the view configuration of the directory, like
 when you change from viewing as icons to viewing as a list. this maps to a really
 handy keyboard shortcut: `cmd+2` to switch to list view, then `cmd+1` to switch
-back to icon view. credit to @rgbivvv for this suggestion!
+back to icon view. thank you [rgbivvv](https://github.com/rgbivvv/) for this suggestion!
 - there are certainly more update conditions but I found these two the most relevant.
 
 
