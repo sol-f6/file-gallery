@@ -12,7 +12,6 @@
 
   <style>
     html, body {
-      height: 100%;
       margin: 0;
       text-size-adjust: none;
       -webkit-text-size-adjust: 100%;
@@ -23,29 +22,22 @@
       overflow-x: scroll;
     }
     main {
-      max-width: 100%;
       box-sizing: border-box;
-      align-items: center;
       padding: 1.5em;
     }
-    .plantbed {
-      width: 0;
-      position: relative;
-    }
     .item {
-      display: block;
-      position: absolute;
+      display: inline-block;
       padding: 0em 1em;
-      outline: 1px solid rgba(0,0,0,0.1);
+      margin: 1em 0;
+      border: 1px solid rgba(0,0,0,.1);
+      max-width: 30em;
     }
-    .item * {
-      width: max-content;
-    }
-    .item img, .item video, .item audio {
-      max-width: 18em;
-      height: auto;
+    .item img, .item video {
+      width: auto; height: auto;
+      max-width: 28em; max-height: 26em;
     }
     .item audio {
+      max-width: 18em;
       height: 3em;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -72,58 +64,68 @@
 <body>
   <main>
 
-    <div class="plantbed" style="left: max(0px, calc(50% - 162px - 9em))">
-      <div class="item" style="top: 50px; left: 0px">
-        <h3><a href="about.md">about.md</a> (744B)</h3>
+    <div class="plantbed">
+      <div class="item">
+        <h3><a href="about.md">about.md</a> (123B)</h3>
         <div class="md">
-          <p><a href="https://file.gallery">file.gallery</a> is a website sown from<br>
-files, directories, and .DS_Store.</p>
-<p>file.gallery is a cleaned-up mirror<br>
-of <a href="https://kevin.garden">kevin.garden</a> for easier setup.<br>
-get the source files <a href="https://github.com/inchkev/file-gallery">here</a> to start<br>
-your own file garden, gallery, etc.</p>
-<h4><em>/src, /views: see <a href="https://github.com/inchkev/file-gallery?tab=readme-ov-file#license">license</a></em><br><em>all other content: <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc by-sa 4.0</a></em></h4>
-<p>directory</p>
-<ul>
-<li><a href="https://kevin.garden">kevin.garden</a></li>
-<li><a href="https://ryanyan.garden">ryanyan.garden</a></li>
-<li><a href="https://jakewel.ch/">jakewel.ch</a></li>
-<li><a href="https://moonlit.exposed/">moonlit.exposed</a></li>
-<li><a href="https://tilde.kiki.directory/">tilde.kiki.directory</a></li>
-</ul>
+          <p>my name is sol  <br></p>
+<p>this is my garden <br></p>
+<p><a href="https://sol-f6.github.io/cc-homepage/index.html">my websites</a> <br></p>
         </div>
       </div>
-      <div class="item" style="top: 66px; left: 273px">
+      <div class="item">
         <h3>CNAME</h3>
         <pre>file.gallery
 </pre>
       </div>
-      <div class="item" style="top: 142px; left: 271px">
+      <div class="item">
+        <h3><a href="contact.md">contact.md</a> (16B)</h3>
+        <div class="md">
+          <p><a href="mailto:fesehas2@vcu.edu">fesehas2@vcu.edu</a></p>
+        </div>
+      </div>
+      <div class="item">
+        <h3><a href="finals.md">finals.md</a> (25B)</h3>
+        <div class="md">
+          <p>૮ ◞ ﻌ ◟ ა
+<br></p>
+        </div>
+      </div>
+      <div class="item">
+        <h3><a href="finals.txt">finals.txt</a> (26B)</h3>
+      </div>
+      <div class="item">
         <h3>last updated</h3>
         <pre>2026-01-25
 </pre>
       </div>
-      <div class="item" style="top: 289px; left: 270px">
-        <h3><a href="LICENSE">LICENSE</a> (11.4kB)</h3>
+      <div class="item">
+        <h3><a href="LICENSE">LICENSE</a> (11.6kB)</h3>
       </div>
-      <div class="item" style="top: 395px; left: 27px">
-        <h3><a href="Screenshot 2025-05-23 at 12.30.06 AM.webp">Screenshot 2025-05-23 at 12.30.06 AM.webp</a> (3.74kB)</h3>
-        <a href="Screenshot 2025-05-23 at 12.30.06 AM.webp">
-          <img src="Screenshot 2025-05-23 at 12.30.06 AM.webp" alt="Screenshot 2025-05-23 at 12.30.06 AM.webp" width="600" height="499">
-        </a>
-      </div>
-      <div class="item" style="top: 216px; left: 274px">
+      <div class="item">
         <h3><a href="src/">src/</a> (2 items)</h3>
       </div>
-      <div class="item" style="top: 245px; left: 324px">
+      <div class="item">
+        <h3><a href="test file.md">test file.md</a> (21B)</h3>
+        <div class="md">
+          <p>hello and welcome</p>
+        </div>
+      </div>
+      <div class="item">
         <h3><a href="views/">views/</a> (2 items)</h3>
+      </div>
+      <div class="item">
+        <h3><a href="ygubhjmn.jpg">ygubhjmn.jpg</a> (60.4kB)</h3>
+        <a href="ygubhjmn.jpg">
+          <img src="ygubhjmn.jpg" alt="ygubhjmn.jpg" width="493" height="493">
+        </a>
       </div>
     </div>
 
   </main>
 </body>
 <!--
-kevin.garden (natural template) by Kevin Chen, 2023-26
+kevin.garden (formal template) by Kevin Chen, 2023-26
 licensed under CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/
 please link to https://kevin.garden/ or https://file.gallery/, if possible.
 attribution only in the html source is sufficient. non-commercial use only :)

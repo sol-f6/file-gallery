@@ -1,17 +1,7 @@
-[file.gallery](https://file.gallery) is a website sown from<br>
-files, directories, and .DS_Store.
+my name is sol  <br>
 
-file.gallery is a cleaned-up mirror<br>
-of [kevin.garden](https://kevin.garden) for easier setup.<br>
-get the source files [here](https://github.com/inchkev/file-gallery) to start<br>
-your own file garden, gallery, etc.
+this is my garden <br>
 
-#### _/src, /views: see [license](https://github.com/inchkev/file-gallery?tab=readme-ov-file#license)_<br>_all other content: [cc by-sa 4.0](https://creativecommons.org/licenses/by-sa/4.0/)_
 
-directory
+[my websites](https://sol-f6.github.io/cc-homepage/index.html) <br>
 
-- [kevin.garden](https://kevin.garden)
-- [ryanyan.garden](https://ryanyan.garden)
-- [jakewel.ch](https://jakewel.ch/)
-- [moonlit.exposed](https://moonlit.exposed/)
-- [tilde.kiki.directory](https://tilde.kiki.directory/)
